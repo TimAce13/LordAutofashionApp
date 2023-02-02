@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LordAutofashionApp"
+             x:Class="LordAutofashionApp.MainPage">
+    <StackLayout>
+        <ListView RowHeight="150" ItemsSource="{Binding Items}">
+        <ListView.Header>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.15*" />
+                    <ColumnDefinition Width="0.43*" />
+                    <ColumnDefinition Width="0.22*" />
+                    <ColumnDefinition Width="0.2*" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Номер" Grid.Column="0" FontSize="Small" TextColor="#40B7AE" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                <Label Text="Чехол" Grid.Column="1" FontSize="Small" TextColor="#40B7AE" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                <Label Text="Такты" Grid.Column="2" FontSize="Small" TextColor="#40B7AE" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                <Label Text="В пошиве|Пошито" Grid.Column="3" FontSize="Small" TextColor="#40B7AE" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Grid>
+        </ListView.Header>
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid BackgroundColor="#1B1B1B">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.15*" />
+                            <ColumnDefinition Width="0.45*" />
+                            <ColumnDefinition Width="0.2*" />
+                            <ColumnDefinition Width="0.1*" />
+                            <ColumnDefinition Width="0.1*" />
+                        </Grid.ColumnDefinitions >
+                        
+                        <Label Grid.Column="0" TextColor="#40B7AE" BackgroundColor="#1B1B1B" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text ="{Binding Number}" ></Label>
+                        <Label Grid.Column="1" TextColor="#40B7AE" BackgroundColor="#1B1B1B"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text ="{Binding SeatsModel}" ></Label>
+                        <Label Grid.Column="2" TextColor="#40B7AE" BackgroundColor="#1B1B1B" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text ="{Binding NumberOfTacts}" ></Label>
+                        <CheckBox Grid.Column="3" IsChecked="{Binding InProcess}" CheckedChanged="CheckBoxChanged" Background="#1B1B1B"  HorizontalOptions="Center" VerticalOptions="Center" ></CheckBox>
+                        <CheckBox Grid.Column="4" IsChecked="{Binding IsDone}" CheckedChanged="CheckBoxChanged" Background="#1B1B1B" HorizontalOptions="Center" VerticalOptions="Center" ></CheckBox>
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+            
+    </ListView>
+        <Button x:Name="UpdateButton" BackgroundColor="#111111" TextColor="#40B7AE" Text="Обновить"></Button>
+    </StackLayout>
+</ContentPage>

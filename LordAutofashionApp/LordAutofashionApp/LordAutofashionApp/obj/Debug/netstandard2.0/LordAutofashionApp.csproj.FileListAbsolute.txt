@@ -1,0 +1,13 @@
+/Users/timofeyuv/RiderProjects/LordAutofashionApp/LordAutofashionApp/LordAutofashionApp/bin/Debug/netstandard2.0/LordAutofashionApp.deps.json
+/Users/timofeyuv/RiderProjects/LordAutofashionApp/LordAutofashionApp/LordAutofashionApp/bin/Debug/netstandard2.0/LordAutofashionApp.dll
+/Users/timofeyuv/RiderProjects/LordAutofashionApp/LordAutofashionApp/LordAutofashionApp/bin/Debug/netstandard2.0/LordAutofashionApp.pdb
+/Users/timofeyuv/RiderProjects/LordAutofashionApp/LordAutofashionApp/LordAutofashionApp/obj/Debug/netstandard2.0/LordAutofashionApp.csproj.AssemblyReference.cache
+/Users/timofeyuv/RiderProjects/LordAutofashionApp/LordAutofashionApp/LordAutofashionApp/obj/Debug/netstandard2.0/LordAutofashionApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/timofeyuv/RiderProjects/LordAutofashionApp/LordAutofashionApp/LordAutofashionApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/timofeyuv/RiderProjects/LordAutofashionApp/LordAutofashionApp/LordAutofashionApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/timofeyuv/RiderProjects/LordAutofashionApp/LordAutofashionApp/LordAutofashionApp/obj/Debug/netstandard2.0/LordAutofashionApp.AssemblyInfoInputs.cache
+/Users/timofeyuv/RiderProjects/LordAutofashionApp/LordAutofashionApp/LordAutofashionApp/obj/Debug/netstandard2.0/LordAutofashionApp.AssemblyInfo.cs
+/Users/timofeyuv/RiderProjects/LordAutofashionApp/LordAutofashionApp/LordAutofashionApp/obj/Debug/netstandard2.0/LordAutofashionApp.csproj.CoreCompileInputs.cache
+/Users/timofeyuv/RiderProjects/LordAutofashionApp/LordAutofashionApp/LordAutofashionApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/timofeyuv/RiderProjects/LordAutofashionApp/LordAutofashionApp/LordAutofashionApp/obj/Debug/netstandard2.0/LordAutofashionApp.dll
+/Users/timofeyuv/RiderProjects/LordAutofashionApp/LordAutofashionApp/LordAutofashionApp/obj/Debug/netstandard2.0/LordAutofashionApp.pdb
